@@ -1,0 +1,21 @@
+ul{
+    text-align: center;
+}
+ul a{
+    border: none;
+    padding: 9px;
+    text-transform: capitalize;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #2196F3;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.active{
+    background-color: red;
+    color: black;
+}
+ul a:not(:first-child){
+    margin-left: 10px;
+}
